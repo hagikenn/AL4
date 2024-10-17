@@ -36,6 +36,7 @@ void GameScene::Initialize() {
 	//自キャラの初期化
 	player_->Initialize(model_,textureHandle_);
 
+
 	//デバックカメラの生成
 	debugCamera_ = new DebugCamera(1280, 720);
 
